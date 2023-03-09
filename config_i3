@@ -168,7 +168,7 @@ bindsym $mod+Shift+mod2+KP_Insert move container to workspace 10
 
 # =========================================== custom options =======================+++
 # bindsym $mod+Shift+x exec "i3lock"
-bindsym $mod+Shift+x exec "playerctl pause; bash /home/djtrenhaile/global_scripts/lockscreen/lock_screen.sh"
+bindsym $mod+Shift+x exec --no-startup-id "playerctl pause; bash /home/djtrenhaile/global_scripts/lockscreen/lock_screen.sh"
 
 # ====== fix monitors on startup =====++
 # workspace 1 output DP-0
